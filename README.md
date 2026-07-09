@@ -4,16 +4,13 @@ Example configuration for using the TokenLab MCP server with Claude Desktop, Cur
 
 ## Quickstart
 
-Clone and run the MCP server:
+Install and run the published MCP server:
 
 ```bash
-git clone https://github.com/hedging8563/tokenlab-mcp-server.git
-cd tokenlab-mcp-server
-npm install
-npm start
+npx -y @tokenlabai/mcp-server
 ```
 
-Then copy `mcp-config.json` into your MCP client configuration and update the local path.
+Copy `mcp-config.json` into your MCP client configuration. Public catalog tools work without a key. Add `TOKENLAB_API_KEY` to the `env` object to enable inference tools.
 
 ## Tools
 
@@ -22,6 +19,7 @@ Then copy `mcp-config.json` into your MCP client configuration and update the lo
 - `get_model_pricing`
 - `compare_models`
 - `get_api_overview`
+- `create_chat_completion` with `TOKENLAB_API_KEY`
 - `create_response` with `TOKENLAB_API_KEY`
 - `create_anthropic_message` with `TOKENLAB_API_KEY`
 - `create_gemini_content` with `TOKENLAB_API_KEY`
