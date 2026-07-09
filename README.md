@@ -1,5 +1,7 @@
 # TokenLab MCP Example
 
+[![CI](https://github.com/hedging8563/tokenlab-mcp-example/actions/workflows/ci.yml/badge.svg)](https://github.com/hedging8563/tokenlab-mcp-example/actions/workflows/ci.yml)
+
 Example configuration for using the TokenLab MCP server with Claude Desktop, Cursor, Windsurf, and other MCP clients.
 
 ## Quickstart
