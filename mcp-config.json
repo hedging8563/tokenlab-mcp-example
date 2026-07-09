@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "tokenlab": {
+      "command": "node",
+      "args": ["/absolute/path/to/tokenlab-mcp-server/src/index.js"],
+      "env": {
+        "TOKENLAB_API_BASE": "https://api.tokenlab.sh",
+        "TOKENLAB_API_KEY": "sk-your-tokenlab-key"
+      }
+    }
+  }
+}

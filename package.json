@@ -1,0 +1,9 @@
+{
+  "name": "tokenlab-mcp-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node -e \"JSON.parse(require('fs').readFileSync('mcp-config.json','utf8')); console.log('mcp config ok')\""
+  }
+}
