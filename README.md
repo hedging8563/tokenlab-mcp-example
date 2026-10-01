@@ -29,4 +29,4 @@ Copy `mcp-config.json` into your MCP client configuration. Public catalog tools 
 ## Links
 
 - MCP server: https://github.com/hedging8563/tokenlab-mcp-server
-- Docs: https://docs.tokenlab.sh/integrations/tokenlab-mcp-server
+- Docs: https://tokenlab.sh/docs/en/integrations/tokenlab-mcp-server
